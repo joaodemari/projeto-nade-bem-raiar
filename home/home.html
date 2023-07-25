@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Programa Nade Bem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="SelProf">
+    <div id="profId">
+    <span>Digite o seu id</span>
+    <input type="number" id="profIdInput">
+    <button id="BuscarIBtn">Buscar por ID</button>
+    </div>
+  </div>
+  <div>
+  <h1 id="MA"></h1>
+  <ul id="listAlunos">
+    <div id="alunoBox">
+    </div>
+  </div>
+  </ul>
+</div>
+  <div id="novaAvaliacao"><h1>Fazer nova Avaliação</h1>
+  <p id="nomeAlAv">Nome Aluno</p>
+  <p id="idAlAv">Id Aluno</p>
+  <p id="nivelAlAv">1</p>
+  <div id="areas"></div>
+  <template id="areaTemplate">
+    <h2 id="areaTitulo"></h2>
+    <!-- <input type="radio" id="inputn1" name="fav_language" value="1">
+    <label for="1" id="n1"></label> -->
+  </template>
+  <textarea name="carlos" id="" cols="30" rows="10"></textarea>
+  <button onclick=butAvaliar()>avaliar</button>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+<script src="render.js"></script>
+<script src="evoapi.js"></script>
+</html>

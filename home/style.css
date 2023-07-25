@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Mont';
+  src: url('Mont-Regular.otf') format('opentype');
+  /* Outros formatos de fonte podem ser adicionados aqui */
+}
+body{font-family: 'Mont';
+background-color: rgb(0, 175, 228);
+color: white;
+display: flex;}
+
+#MA{display: none;}
+
+#SelProf{
+  position: absolute;
+  top: 30vh;
+  left: 30%;
+  right: 30%;
+  border-radius: 20px;
+  border: solid 3px white;
+  padding: 50px;
+  display: flex;
+}
+    
+#prof{
+  width: 20em;
+}
+
+#listAlunos{list-style-type: none}
+#alunoBox{display: flex; align-items: center; ;}
+#dadosAl{margin: 30px; width: 37rem}
+#imagemAluno{height: 100px;width: 100px; object-fit: cover;border: solid 5px; border-radius: 10px;}
+#nomeAl{font-size: 30px;}
+#infAl{line-height: 1.2;}
